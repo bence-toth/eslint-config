@@ -106,14 +106,7 @@ module.exports = {
     "import/exports-last": 2,
     "import/no-duplicates": 2,
     "import/no-namespace": 2,
-    "import/order": [2, {
-      "newlines-between": "always",
-      "groups": [
-        "builtin",
-        "external",
-        ["sibling", "parent", "index"]
-      ]
-    }],
+    "import/order": off,
     "import/newline-after-import": 2,
     "import/prefer-default-export": 2,
     "unicorn/import-index": 0,
@@ -121,8 +114,10 @@ module.exports = {
       "allow": ["**/*.css"]
     }],
     "import/group-exports": 2,
+    "optimize-regex/optimize-regex": 2,
     "react-hooks/rules-of-hooks": 2,
     "react-hooks/exhaustive-deps": 1,
+    "simple-import-sort/sort": 2,
     "sonarjs/cognitive-complexity": [2, 15],
     "unicorn/filename-case": [2, {
       "case": "camelCase"

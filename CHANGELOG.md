@@ -1,3 +1,10 @@
+## 1.0.5
+
+Added and configured `eslint-plugin-optimize-regex`.
+
+Added and configured `simple-import-sort`.
+
+
 ## 1.0.4
 
 Updated disabled rule `import-index` to `unicorn/import-index`.
