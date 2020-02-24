@@ -1,3 +1,8 @@
+## 1.0.6
+
+Fixed boo boo in config.
+
+
 ## 1.0.5
 
 Added and configured `eslint-plugin-optimize-regex`.

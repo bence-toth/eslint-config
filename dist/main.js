@@ -106,7 +106,7 @@ module.exports = {
     "import/exports-last": 2,
     "import/no-duplicates": 2,
     "import/no-namespace": 2,
-    "import/order": off,
+    "import/order": 0,
     "import/newline-after-import": 2,
     "import/prefer-default-export": 2,
     "unicorn/import-index": 0,
