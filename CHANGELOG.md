@@ -1,4 +1,19 @@
-# 1.0.0
+## 1.0.2
+
+Fixed plugin list:
+- `array-func`
+- `fp`
+- `jest`
+- `react-hooks`
+- `sonarjs`
+- `unicorn`
+- `@getify/proper-arrows`
+
+## 1.0.1
+
+Fixed readme
+
+## 1.0.0
 
 Initial version.
 
