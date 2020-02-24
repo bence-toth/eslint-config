@@ -1,0 +1,12 @@
+{
+  "name": "@bence.a.toth/eslint-config",
+  "version": "1.0.0",
+  "description": "An opinionated and extensive ESLint configuration for React applications",
+  "main": "dist/main.js",
+  "author": "Bence A. Toth <tothab@gmail.com>",
+  "homepage": "https://github.com/bence-toth/eslint-config",
+  "repository": {
+    "type": "https",
+    "url": "git+https://github.com/bence-toth/eslint-config.git"
+  }
+}
