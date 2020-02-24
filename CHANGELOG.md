@@ -14,6 +14,7 @@ Disabled rules:
 Updated rule `import/no-unassigned-import`
 to allow unassigned `css` imports.
 
+
 ## 1.0.2
 
 Fixed plugin list:
@@ -25,9 +26,11 @@ Fixed plugin list:
 - `unicorn`
 - `@getify/proper-arrows`
 
+
 ## 1.0.1
 
-Fixed readme
+Fixed readme.
+
 
 ## 1.0.0
 
