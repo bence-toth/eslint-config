@@ -121,6 +121,7 @@ module.exports = {
       "allow": ["**/*.css"]
     }],
     "import/group-exports": 2,
+    "optimize-regex/optimize-regex": 2,
     "react-hooks/rules-of-hooks": 2,
     "react-hooks/exhaustive-deps": 1,
     "sonarjs/cognitive-complexity": [2, 15],
