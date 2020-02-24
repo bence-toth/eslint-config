@@ -119,7 +119,12 @@ module.exports = {
     "optimize-regex/optimize-regex": 2,
     "react-hooks/rules-of-hooks": 2,
     "react-hooks/exhaustive-deps": 1,
-    "simple-import-sort/sort": 2,
+    "simple-import-sort/sort": [2, {
+      "groups": [
+        ["^@?\\w"],
+        ["^\\."]
+      ]
+    }],
     "sonarjs/cognitive-complexity": [2, 15],
     "unicorn/filename-case": [2, {
       "case": "camelCase"
