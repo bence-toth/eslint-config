@@ -14,9 +14,11 @@ module.exports = {
     "fp",
     "jest",
     "react-hooks",
+    "simple-import-sort",
     "sonarjs",
     "unicorn",
     "@getify/proper-arrows",
+    "optimize-regex"
   ],
   "env": {
     "browser": true,
