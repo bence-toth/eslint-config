@@ -12,6 +12,8 @@
   "license": "MIT",
   "files": [
     "LICENSE",
+    "README.md",
+    "CHANGELOG.md",
     "dist/main.js"
   ],
   "peerDependencies": {
