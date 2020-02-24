@@ -5,7 +5,8 @@ module.exports = {
     "plugin:jsx-a11y/recommended",
     "plugin:react/recommended",
     "plugin:sonarjs/recommended",
-    "plugin:unicorn/recommended"
+    "plugin:unicorn/recommended",
+    "plugin:jest/recommended"
   ],
   "parser": "babel-eslint",
   "plugins": [
@@ -13,13 +14,15 @@ module.exports = {
     "filenames",
     "fp",
     "immutable",
+    "jest",
     "react-hooks",
     "sonarjs",
     "unicorn",
-    "@getify/proper-arrows"
+    "@getify/proper-arrows",
   ],
   "env": {
-    "browser": true
+    "browser": true,
+    "jest/globals": true
   },
   "globals": {
     "console": false,
@@ -28,10 +31,7 @@ module.exports = {
     "navigator": false,
     "fetch": false,
     "Headers": false,
-    "URL": false,
-    "describe": false,
-    "expect": false,
-    "it": false
+    "URL": false
   },
   "rules": {
     "arrow-parens": [2, "as-needed"],
