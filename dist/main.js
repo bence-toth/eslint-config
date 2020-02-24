@@ -97,11 +97,6 @@ module.exports = {
     "import/no-useless-path-segments": 2,
     "import/no-unused-modules": 2,
     "import/export": 2,
-    "import/no-extraneous-dependencies": [2, {
-      "devDependencies": false,
-      "optionalDependencies": false,
-      "peerDependencies": false
-    }],
     "import/no-unused-modules": [2, {
       "unusedExports": true,
       "missingExports": true
@@ -121,7 +116,10 @@ module.exports = {
     }],
     "import/newline-after-import": 2,
     "import/prefer-default-export": 2,
-    "import/no-unassigned-import": 2,
+    "import-index": 0,
+    "import/no-unassigned-import": [2, {
+      "allow": ["*.css"]
+    }],
     "import/group-exports": 2,
     "react-hooks/rules-of-hooks": 2,
     "react-hooks/exhaustive-deps": 1,
