@@ -1,3 +1,10 @@
+## 1.0.4
+
+Updated disabled rule `import-index` to `unicorn/import-index`.
+
+Fixed `allow` pattern for `import/no-unassigned-import` for allowing CSS imports.
+
+
 ## 1.0.3
 
 Disabled rules:
