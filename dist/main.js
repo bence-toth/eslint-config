@@ -11,9 +11,7 @@ module.exports = {
   "parser": "babel-eslint",
   "plugins": [
     "array-func",
-    "filenames",
     "fp",
-    "immutable",
     "jest",
     "react-hooks",
     "sonarjs",
