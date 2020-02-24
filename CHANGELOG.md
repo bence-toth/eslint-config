@@ -1,3 +1,12 @@
+## 1.0.3
+
+Disabled rules:
+- `import/no-extraneous-dependencies`
+- `import-index`
+
+Updated rule `import/no-unassigned-import`
+to allow unassigned `css` imports.
+
 ## 1.0.2
 
 Fixed plugin list:
@@ -19,7 +28,8 @@ Initial version.
 
 Based on `airbnb`.
 
-Includes configuration for the following plugins:
+Includes configuration
+for the following plugins:
 - `array-func`
 - `filenames`
 - `fp`
