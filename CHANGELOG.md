@@ -1,3 +1,10 @@
+# Change log
+
+## 1.0.8
+
+Updated configuration for `simple-import-sort/sort`.
+
+
 ## 1.0.7
 
 Registered missing plugins in config.
