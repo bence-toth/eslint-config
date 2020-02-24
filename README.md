@@ -10,11 +10,11 @@ npm install @bence.a.toth/eslint-config --save-dev
 
 ## Configuration
 
-Add `"@agillic/eslint-config"` to the `extends` object in your `.eslintrc` file:
+Add `"@bence.a.toth/eslint-config"` to the `extends` object in your `.eslintrc` file:
 
 ```json
 {
-  "extends": ["@agillic/eslint-config"]
+  "extends": ["@bence.a.toth/eslint-config"]
 }
 ```
 
