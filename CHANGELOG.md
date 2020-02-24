@@ -2,6 +2,8 @@
 
 Added and configured `eslint-plugin-optimize-regex`.
 
+Added and configured `simple-import-sort`.
+
 
 ## 1.0.4
 
