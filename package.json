@@ -8,5 +8,9 @@
   "repository": {
     "type": "https",
     "url": "git+https://github.com/bence-toth/eslint-config.git"
-  }
+  },
+  "license": "MIT",
+  "files": [
+    "LICENSE"
+  ]
 }
