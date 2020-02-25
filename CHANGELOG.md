@@ -1,5 +1,10 @@
 # Change log
 
+## 1.0.9
+
+Removed configuration for `@getify/proper-arrows/params`.
+
+
 ## 1.0.8
 
 Updated configuration for `simple-import-sort/sort`.
