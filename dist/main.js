@@ -135,9 +135,6 @@ module.exports = {
       "count": 1,
       "length": 2,
       "allowed": ["_"]
-    }],
-    "@getify/proper-arrows/name": [2, {
-      "trivial": false
     }]
   }
 }
