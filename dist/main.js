@@ -83,7 +83,13 @@ module.exports = {
     "fp/no-loops": 2,
     "fp/no-mutating-assign": 2,
     "fp/no-mutating-methods": 1,
-    "fp/no-mutation": 2,
+    "fp/no-mutation": [2, {
+      "commonjs": true,
+      "exceptions": [
+        {"property": "propTypes"},
+        {"property": "defaultProps"}
+      ]
+    }],
     "fp/no-proxy": 2,
     "fp/no-this": 2,
     "fp/no-valueof-field": 2,
