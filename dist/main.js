@@ -124,7 +124,7 @@ module.exports = {
         // Side effect imports:
         ["^\\u0000"],
 
-        // Packages, react-related come first:
+        // Packages, React-related come first:
         ["^react", "^@?\\w"],
 
         // Absolute internal packages:
