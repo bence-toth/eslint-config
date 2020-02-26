@@ -1,5 +1,20 @@
 # Change log
 
+## 1.0.10
+
+Updated grouping rules for `simple-import-sort/sort`.
+
+Grouping is now as follows:
+
+- Side effect imports
+- Packages, React-related come first:
+- Absolute internal packages
+- Relative internal packages
+  - Start with parent imports, put `..` last
+  - Other relative imports, same-folder imports and `.` last.
+- Style imports
+
+
 ## 1.0.9
 
 Removed configuration for `@getify/proper-arrows/params`.

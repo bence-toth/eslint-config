@@ -121,8 +121,28 @@ module.exports = {
     "react-hooks/exhaustive-deps": 1,
     "simple-import-sort/sort": [2, {
       "groups": [
-        ["^@?\\w"],
-        ["^\\."]
+        // Side effect imports:
+        ["^\\u0000"],
+
+        // Packages, React-related come first:
+        ["^react", "^@?\\w"],
+
+        // Absolute internal packages:
+        ["^(/.*|$)"],
+
+        // Relative internal packages:
+        // Start with parent imports, put .. last
+        // Other relative imports, same-folder imports and . last.
+        [
+          "^\\.\\.(?!/?$)",
+          "^\\.\\./?$",
+          "^\\./(?=.*/)(?!/?$)",
+          "^\\.(?!/?$)",
+          "^\\./?$"
+        ],
+
+        // Style imports:
+        ["^.+\\.s?css$"]
       ]
     }],
     "sonarjs/cognitive-complexity": [2, 15],
