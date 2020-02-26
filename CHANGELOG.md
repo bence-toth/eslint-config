@@ -1,5 +1,12 @@
 # Change log
 
+## 1.0.11
+
+Updated configuration for `fp/no-mutation`:
+- Allowed mutations coming from CommonJS syntax
+- Allowed object mutations for `.propTypes` and `.defaultProps`
+
+
 ## 1.0.10
 
 Updated grouping rules for `simple-import-sort/sort`.
