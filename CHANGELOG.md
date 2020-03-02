@@ -1,5 +1,13 @@
 # Change log
 
+## 1.0.12
+
+Disabled `react/require-default-props`.
+
+Updated configuration for `@getify/proper-arrows/params`:
+- Limit of number of arguments is now 20
+
+
 ## 1.0.11
 
 Updated configuration for `fp/no-mutation`:
