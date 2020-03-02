@@ -123,6 +123,7 @@ module.exports = {
     }],
     "import/group-exports": 2,
     "optimize-regex/optimize-regex": 2,
+    "react/require-default-props": 0,
     "react-hooks/rules-of-hooks": 2,
     "react-hooks/exhaustive-deps": 1,
     "simple-import-sort/sort": [2, {
