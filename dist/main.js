@@ -159,7 +159,7 @@ module.exports = {
     "unicorn/prefer-exponentiation-operator": 2,
     "@getify/proper-arrows/params": [2, {
       "unused": "all",
-      "count": 1,
+      "count": 20,
       "length": 2,
       "allowed": ["_"]
     }]
