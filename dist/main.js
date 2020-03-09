@@ -157,6 +157,16 @@ module.exports = {
       "case": "camelCase"
     }],
     "unicorn/prefer-exponentiation-operator": 2,
+    "unicorn/prevent-abbreviations": [2, {
+      "replacements": {
+        "prop": {
+          "property": false
+        },
+        "props": {
+          "properties": false
+        }
+      }
+    }],
     "@getify/proper-arrows/params": [2, {
       "unused": "all",
       "count": 20,
