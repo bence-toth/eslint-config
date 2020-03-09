@@ -1,5 +1,11 @@
 # Change log
 
+## 1.0.13
+
+Updated `unicorn/prevent-abbreviations`:
+- Abbreviations “prop” and “props” are now allowed
+
+
 ## 1.0.12
 
 Disabled `react/require-default-props`.
