@@ -1,8 +1,14 @@
 # Change log
 
+## 1.0.14
+
+Updated configuration for `import/no-unassigned-import`:
+- Allowed `less`, `sass`, `scss` and `styl` files to be imported while not being assigned imports.
+
+
 ## 1.0.13
 
-Updated `unicorn/prevent-abbreviations`:
+Updated configuration for `unicorn/prevent-abbreviations`:
 - Abbreviations “prop” and “props” are now allowed
 
 

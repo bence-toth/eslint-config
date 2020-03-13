@@ -119,7 +119,16 @@ module.exports = {
     "import/prefer-default-export": 2,
     "unicorn/import-index": 0,
     "import/no-unassigned-import": [2, {
-      "allow": ["**/*.css"]
+      "allow": [
+        // CSS
+        "**/*.css",
+
+        // CSS preprocessors
+        "**/*.less",
+        "**/*.sass",
+        "**/*.scss",
+        "**/*.styl"
+      ]
     }],
     "import/group-exports": 2,
     "optimize-regex/optimize-regex": 2,
